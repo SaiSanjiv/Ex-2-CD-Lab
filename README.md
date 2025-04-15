@@ -1,6 +1,6 @@
 # Ex-2-GENERATION OF LEXICAL TOKENS LEX FLEX TOOL
-# NAME: PRAJAN P
-# REGNO: 212223240121
+# NAME: SAI SANJIV R
+# REGNO: 212223230179
 # AIM
 ## To write a lex program to implement lexical analyzer to recognize a few patterns.
 # ALGORITHM
