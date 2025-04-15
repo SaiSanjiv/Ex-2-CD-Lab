@@ -1,38 +1,40 @@
 # Ex-2-GENERATION OF LEXICAL TOKENS LEX FLEX TOOL
-## AIM
-### To write a lex program to implement lexical analyzer to recognize a few patterns.
-## ALGORITHM
-Start the program.
+# NAME: PRAJAN P
+# REGNO: 212223240121
+# AIM
+## To write a lex program to implement lexical analyzer to recognize a few patterns.
+# ALGORITHM
 
-Lex program consists of three parts.
+1.	Start the program.
 
-a. Declaration %%
+2.	Lex program consists of three parts.
 
-b. Translation rules %%
+     a.	Declaration %%
 
-c. Auxilary procedure.
+     b.	Translation rules %%
 
-The declaration section includes declaration of variables, maintest, constants and regular definitions.
+     c.	Auxilary procedure.
 
-Translation rule of lex program are statements of the form
+3.	The declaration section includes declaration of variables, maintest, constants and regular definitions.
+4.	Translation rule of lex program are statements of the form
 
-a. P1 {action}
+    a.	P1 {action}
 
-b. P2 {action}
+    b.	P2 {action}
 
-c. …
+    c.	…
 
-d. …
+    d.	…
 
-e. Pn {action}
+    e.	Pn {action}
 
-Write a program in the vi editor and save it with .l extension.
+5.	Write a program in the vi editor and save it with .l extension.
 
-Compile the lex program with lex compiler to produce output file as lex.yy.c. eg $ lex filename.l $ cc lex.yy.c
+6.	Compile the lex program with lex compiler to produce output file as lex.yy.c. eg $ lex filename.l $ cc lex.yy.c
+7.	Compile that file with C compiler and verify the output.
 
-Compile that file with C compiler and verify the output.
-
-INPUT
+# INPUT:
+```
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
@@ -75,9 +77,10 @@ int main() {
 
     return 0;
 }
-## OUTPUT
-![image](https://github.com/user-attachments/assets/12346a63-10dd-4cba-a6eb-88185656dc34)
+```
+# OUTPUT:
+![375285999-dcaee4bb-6141-43c3-9870-0f3c361fa465](https://github.com/user-attachments/assets/641318bd-1062-4c01-a2d8-87b2ea2401e5)
 
 
-## RESULT
+# RESULT:
 The lexical analyzer is implemented using lex and the output is verified.
