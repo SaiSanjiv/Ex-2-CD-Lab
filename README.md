@@ -79,7 +79,7 @@ int main() {
 }
 ```
 # OUTPUT:
-![375285999-dcaee4bb-6141-43c3-9870-0f3c361fa465](https://github.com/user-attachments/assets/641318bd-1062-4c01-a2d8-87b2ea2401e5)
+![image](https://github.com/user-attachments/assets/8557d420-1648-42e4-babe-2eef90a04ce3)
 
 
 # RESULT:
